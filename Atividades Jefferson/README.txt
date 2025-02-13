@@ -1,1 +1,1 @@
-
+A atividade do banco, solicitada pelo professor Jeffeson Chaves, não armazena dados em um DB, mas é um bom passatempo pra que quer um banco que apaga os dados depois de fechado, e pra jogadores de banco imobiliário skksksks
