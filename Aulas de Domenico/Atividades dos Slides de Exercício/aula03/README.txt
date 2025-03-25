@@ -1,1 +1,1 @@
-Terceira aula Domenico, referente ao dia 25/03/2025!
+Terceira aula com o Domenico, referente ao dia 25/03/2025!
