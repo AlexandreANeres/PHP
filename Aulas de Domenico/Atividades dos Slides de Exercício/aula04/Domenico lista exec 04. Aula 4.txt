@@ -1,0 +1,44 @@
+----------------------- 1a
+
+Valor juros 1 = 240
+Valor capital 1 = 200
+
+Valor final = 440
+
+----------------------- 1b
+
+Valor juros 1 = 1000
+Valor capital = 500
+
+Valor final = 1500
+
+----------------------- 2
+
+Saída programa:
+
+Inter - Porto Alegre - 1903
+Grêmio - Porto Alegre - 1910
+
+----------------------- 3
+
+<?php
+
+echo "Oi, vou ler 3 dados de 5 países diferentes, dados estes que você vai implementar! Boa sorte!";
+
+$paises = array();
+
+for($i = 1; $i < 6; $i++) {
+    $nome = readline("\n" . "Nome do País: ")
+    $continente = readline("\n" . "Continente em que o país se encontra: ");
+    $qtdHabitantes = readline("\n" . "Quantidade de habitantes do país: ");
+
+    $pais["nome"] = $nome;
+    $pais["continente"] = $continente;
+    $pais["qtdHabitantes"] = $qtdHabitantes;
+
+    array_push($paises, $pais);
+}
+
+foreach($paises as $p) {
+    echo $p["nome"] . " - " . $p["continente"] . " - " . $p["qtdHabitantes"] . "\n";
+}
